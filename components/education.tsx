@@ -43,7 +43,7 @@ export default function Education() {
           <p className="mt-1">Graduating in 2024</p>
           <p className="my-1">GPA 3.77</p>
           <ul className="list-disc pl-6">
-            <li>Industry experinece of 4 years</li>
+            <li>Industry experience of 4 years</li>
             <li>Looking for roles in Product Management</li>
             <li>Designing and developing quality web pages</li>
             <li>Interned at Philips Healthcare</li>
