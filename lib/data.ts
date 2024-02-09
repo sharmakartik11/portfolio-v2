@@ -2,13 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import thriftyTable from "@/public/thrifty-table.jpeg";
 import eventDing from "@/public/event-ding.png";
-import assetTradingImg from "@/public/asset-trading.jpg";
-import euphorusImg from "@/public/euphorus-two.png";
-import euphorusBackendImg from "@/public/euphorus-backend.png";
-import techprowlImg from "@/public/techprowl-two.png";
-import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
-import binaryGameImg from "@/public//binary-game.png";
+import appify from "@/public/appify.png"
+import tia from "@/public/tia.png"
+import genomic from "@/public/genomic-variant-explorer.png"
 
 export const links = [
   {
@@ -79,6 +75,23 @@ export const projectsData = [
     demoLink: "https://www.figma.com/proto/MLtISQbeYKhbebj4PjZx6i/Thrifty-Table?node-id=5-51&starting-point-node-id=5%3A51&mode=design&t=T0u8ibTERUeRAimr-1",
   },
   {
+    title: "Genomic Variant Explorer",
+    description:
+      "Improved the user experience for navigation and interaction thereby providing seamless access to huge genomic data. Bioinformaticians received substantial support in conducting genomic variant analysis, including searching, filtering, sorting, and formatting for identifying causal mutations.",
+    tags: ["ReactJS", "NodeJS", "Python", "Ag-Grid", "CSS", "C"],
+    icons: [
+      "devicon:react",
+      "logos:nodejs",
+      "devicon:python",
+      "logos:aggrid",
+      "vscode-icons:file-type-css",
+      "vscode-icons:file-type-c"
+    ],
+    imageUrl: genomic,
+    urlLink: "", //post demo link here
+    githubLink: "https://github.com/sharmakartik11/ag-grid-react-package-example",
+  },
+  {
     title: "EventDing",
     description:
       "Engineered a next-generation event hosting website allowing Northeastern University administrators and students to host and book events respectively.",
@@ -93,28 +106,28 @@ export const projectsData = [
     urlLink: "https://eventding.vercel.app",
     githubLink: "https://github.com/sharmakartik11/EventDing",
   },
-  // {
-  //   title: "Company Asset Trading",
-  //   description:
-  //     "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-  //   tags: ["Java", "MariaDB", "Swing"],
-  //   icons: ["logos:java", "logos:mariadb-icon"],
-  //   imageUrl: assetTradingImg,
-  //   githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
-  // },
-  // {
-  //   title: "Euphorus",
-  //   description:
-  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-  //   tags: ["JavaScript", "React", "Bootstrap"],
-  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-  //   imageUrl: euphorusImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  // },
+  {
+    title: "Appify",
+    description:
+      "React application that enables the user to create a layout of an end to end mobile application on platforms such as iOS and Android in minutes without the need to code.",
+    tags: ["Java", "Flutter", "JavaScript", "ReactJS", "CSS"],
+    icons: ["logos:java", "logos:flutter", "logos:javascript", "logos:react", "vscode-icons:file-type-css"],
+    imageUrl: appify,
+    githubLink: "https://github.com/sharmakartik11/appify-ui",
+  },
+  {
+    title: "TIA - The Interviewing Assistant",
+    description:
+      "Designed and developed a React application for a production-ready dynamic chatbot with adaptive questions across five difficulty levels to automate the interview process on topics such as Python, SQL, ReactJS, and Java.",
+    tags: ["JavaScript", "React", "Python", "CSS"],
+    icons: ["logos:javascript", "logos:react", "logos:python", "vscode-icons:file-type-css"],
+    imageUrl: tia,
+    githubLink: "",
+  },
   // {
   //   title: "Country Happiness API",
   //   description:
-  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
+  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.  AG Grid and Chart.js were used to present the data.",
   //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
   //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
   //   imageUrl: euphorusBackendImg,

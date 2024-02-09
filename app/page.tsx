@@ -12,8 +12,8 @@ export default function Home() {
       <Intro />
       <div className="flex flex-col items-center px-4">
         <SectionDivider />
-        <Experience />
         <Projects />
+        <Experience />
         <Skills />
         <Education />
         <Contact />
