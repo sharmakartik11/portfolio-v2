@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Summer Intern",
     location: "Philips Healthcare",
     description:
-      "Assisted in the development and execution of the product roadmap for the genomic variant viewer, focusing on enhancing the user experience in viewing and analyzing large genomic samples and optimizing clinical workflows Developed high quality landing pages and front end features using ReactJS, Next, CSS, and JavaScript.",
+      "Assisted in the development and execution of the product roadmap for the genomic variant viewer, focusing on enhancing the user experience in viewing and analyzing large genomic samples and optimizing clinical workflows. Conducted market research and competitive analysis to identify industry trends. Defined a lean MVP, documented acceptance criteria, and led agile delivery of the product. Developed high quality landing pages and front end features using ReactJS, Next, CSS, and JavaScript.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - September 2023",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Senior Analyst",
     location: "Accenture",
     description:
-      "Lead the team in developing a clean, interactive, and responsive user interface to fetch, display, and export millions of data in a grid by analyzing and integrating user requirements into design specifications.",
+      "Led cross-functional team of designers and engineers to develop a clean, interactive, and responsive user interface for a data visualization tool capable of fetching and displaying millions of data points in a grid format. Collaborated with product owners to translate business objectives into actionable product requirements documented in a comprehensive Product Requirement Document, prioritizing features and functionalities based on business needs and user feedback, ensuring effective resource allocation and timely delivery",
     icon: React.createElement(CgWorkAlt),
     date: "Dec 2021 - Aug 2022",
   },
